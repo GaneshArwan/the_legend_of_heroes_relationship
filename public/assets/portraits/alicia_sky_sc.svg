@@ -1,0 +1,32 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#0f172a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="1.0"/>
+    </radialGradient>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#475569" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Shield -->
+  <rect width="400" height="400" rx="32" fill="url(#bgGrad)"/>
+  <rect x="8" y="8" width="384" height="384" rx="24" fill="none" stroke="url(#frameGrad)" stroke-width="2"/>
+
+  <!-- Tactical Orbment Concentric Rings -->
+  <circle cx="200" cy="180" r="140" fill="none" stroke="#60a5fa" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <circle cx="200" cy="180" r="110" fill="none" stroke="#60a5fa" stroke-opacity="0.20" stroke-width="1.5"/>
+  <circle cx="200" cy="180" r="80" fill="none" stroke="#60a5fa" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Monogram Center Badge -->
+  <rect x="130" y="110" width="140" height="140" rx="28" fill="#0f172a" fill-opacity="0.85" stroke="#60a5fa" stroke-width="3"/>
+  <text x="200" y="198" font-family="'Cinzel', Georgia, serif" font-size="54" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="3">QA</text>
+
+  <!-- Nameplates -->
+  <rect x="40" y="300" width="320" height="60" rx="12" fill="#0f172a" fill-opacity="0.85" stroke="#60a5fa" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="200" y="326" font-family="'Inter', system-ui, sans-serif" font-size="16" font-weight="600" fill="#f1f5f9" text-anchor="middle">Alicia von Auslese (SKY_SC)</text>
+  <text x="200" y="348" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="400" fill="#60a5fa" text-anchor="middle">アリシア・フォン・アウスレーゼ • [SKY_FC]</text>
+</svg>

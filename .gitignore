@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build & coverage outputs
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# Agent & workspace metadata
+.agents/
+.codegraph/
+docs/maestro/
+ORIGINAL_REQUEST.md
+PROJECT.md
+TEST_INFRA.md
+TEST_READY.md
+
+# Environment & logs
+.env
+.env.*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
