@@ -2,6 +2,29 @@
 
 An interactive React + TypeScript web application for exploring character relationships, faction hierarchies, and multi-era character dossiers across *The Legend of Heroes* (*Trails* / *Kiseki*) saga using an ARCUS II / XIPHA-inspired interface.
 
+## Live Demo
+
+![Interactive Walkthrough](docs/media/demo.gif)
+
+[Watch full MP4 walkthrough](docs/media/demo.mp4)
+
+## Screenshots
+
+| Orbment Bond Graph | Multi-Era Character Dossier |
+| :---: | :---: |
+| ![Orbment Bond Graph](docs/media/orbment-bond-graph.png) | ![Character Dossier](docs/media/character-dossier.png) |
+
+| Faction Hierarchy Tree | Link Path Finder |
+| :---: | :---: |
+| ![Faction Hierarchy Tree](docs/media/faction-hierarchy.png) | ![Link Path Finder](docs/media/link-path-finder.png) |
+
+<details>
+<summary>Deep Dive Arc View</summary>
+
+![Deep Dive Arc View](docs/media/deep-dive-arc.png)
+
+</details>
+
 ## Features
 
 - **Spoiler-Safe Game Progression Bar**: Select any mainline entry as your active timeline horizon to filter characters, era variants, titles, and relationships without spoiling later games.
